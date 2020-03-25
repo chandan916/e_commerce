@@ -2,7 +2,7 @@
   /*function to check if item is added to cart or not */
   function check_if_added_to_cart($num)
 	{
-    	$con=mysqli_connect("localhost","root","Zxc123@op","store");
+    	$con=mysqli_connect("localhost","root","","store");
 	if(isset($_SESSION['user_id']))
 	{
 	$user_id=$_SESSION['user_id'];

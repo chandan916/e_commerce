@@ -1,0 +1,178 @@
+/*header*/
+.navbar{
+  background-color: black;
+}
+.navbar-nav a{
+  color: white;
+  font-size: 18px;
+}
+.navbar-nav a:hover{
+  color: red;
+}
+.navbar-brand{
+  color: white;
+  font-size:32px;
+}
+.navbar-brand:hover{
+	color:red;
+}
+.icon-bar{
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background-color: white;
+}
+.toggle-btn{
+  border:2px solid gray;
+  border-radius: 8px;
+}
+  /*end of header*/ 
+  
+ /*home*/
+.home{
+    background: url(../images/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+	min-height:calc(100vh - 107.6px);
+}
+.rheight{
+    min-height:calc(100vh - 199.6px);
+}
+.banner{
+background-color: white;
+color: black;
+opacity: 0.8;
+border-radius:8px;
+width:60%;
+margin-left: 20%;
+overflow: hidden;
+}
+.banner h1{
+  font-weight: bold;
+  margin-bottom: 35px;
+  border-bottom: 1px solid black;
+}
+.banner p{
+  font-style : italic;
+  font-size: 28px;
+  padding-bottom: 35px;
+}
+.header-link{
+  background: red;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  transition: all 0.2s ease;
+  animation: frombottom;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.header-link:hover
+{
+  background-color:white;
+  color: red;
+}
+@keyframes frombottom{
+  0%{
+    transform: translateY(10px);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(10px);
+  }
+}
+/*end of home style */
+
+        /*overview*/
+.overview{
+	background-color:white;
+	padding:60px;
+}
+
+.cards{
+	height:280px;
+	border-radius:10px;
+	overflow:hidden;
+}
+       /*end of overview*/
+	   
+	   /*products in products.php*/
+#products{
+  background-color: white;
+  padding: 20px;
+}
+#products h2{
+  font-size: 48px;
+  font-style: italic;
+  font-weight: bold;
+  padding:30px;
+}
+.card-img-top{
+  height:310px;
+}
+
+     /*end of products*/
+	 
+	 /*footer*/
+.pagefooter{ 
+  background-color: black;
+  color: white;
+  width:100%;
+}
+   /*text in footer */
+.content{
+	font-size:18px;
+	color: white;
+}
+   /*icons in footer */
+.icon-info a{
+	color:white;
+}
+.icon-info a:hover{
+   color:red;
+}
+
+   /*end of footer*/
+   
+       /*about*/
+.question{
+background-color:black;
+color:white;
+border:1px solid black;
+border-radius:10px;
+}
+.photo{
+width:400px;
+float:right;
+border:2px solid black;
+border-radius:10px;
+}
+.para{
+padding:10px;
+font-size:20px;
+font-style:bold;
+}
+.c3 h3{
+color:red;
+}
+   /* end of about style */
+
+   /* contact style */
+.r1{
+margin:10px;
+}
+.r2{
+margin-bottom:46px;
+}
+.img1{
+width:300px;
+}
+.desc{
+font-size:23px;
+}
+  /*End of contact style */
+

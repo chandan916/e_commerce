@@ -1,0 +1,68 @@
+html{
+	height:100%;
+}
+body{
+	min-height:100%;
+	position:relative;
+}
+  /*header */
+.navbar{
+  background-color: black;
+  opacity: 0.8;
+}
+.navbar-nav a{
+  color: white;
+  font-size: 18px;
+}
+.navbar-nav a:hover{
+  color: red;
+}
+.navbar-brand{
+  color: white;
+  font-size:32px;
+}
+.navbar-brand:hover{
+	color:red;
+}
+.icon-bar{
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background-color: white;
+}
+.toggle-btn{
+  border:2px solid gray;
+  border-radius: 8px;
+}
+
+ /*end of header*/
+ 
+  /*footer*/
+.pagefooter{
+  background-color: black;
+  position:absolute;
+  bottom:0px;
+  width:100%;
+}
+ /*text in footer*/
+.content{
+	font-size:18px;
+	color: white;
+}
+   /*icons in footer*/
+.icon-info a{
+	color:white;
+}
+.icon-info a:hover{
+   color:red;
+}
+   /*end of footer*/
+
+   /*for tables in order history and cart*/
+.history{
+	margin-bottom:60px;
+}
+   /*end*/
+
+
+
